@@ -1,0 +1,38 @@
+# Android build files
+*.apk
+*.ap_
+*.aab
+*.dex
+*.class
+bin/
+gen/
+out/
+release/
+
+# Gradle files
+.gradle/
+build/
+*/build/
+gradle-wrapper.jar
+gradle-wrapper.properties
+
+# Local configuration
+local.properties
+
+# Android Studio files
+.idea/
+*.iml
+.navigation/
+captures/
+.externalNativeBuild/
+
+# Keystore files (YOUR SIGNING KEY – VERY IMPORTANT TO IGNORE)
+*.jks
+*.keystore
+
+# Firebase – DO NOT UPLOAD THIS PUBLICLY
+google-services.json
+
+# Other
+*.log
+.DS_Store

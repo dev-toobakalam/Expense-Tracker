@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/dashboardFragment">
+
+    <fragment
+        android:id="@+id/dashboardFragment"
+        android:name="com.mad.expensetracker.ui.dashboard.DashboardFragment"
+        android:label="Dashboard" />
+
+    <fragment
+        android:id="@+id/expenseListFragment"
+        android:name="com.mad.expensetracker.ui.expense.ExpenseListFragment"
+        android:label="Expenses">
+        <action
+            android:id="@+id/action_list_to_edit"
+            app:destination="@id/editExpenseFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/addExpenseFragment"
+        android:name="com.mad.expensetracker.ui.expense.AddExpenseFragment"
+        android:label="Add Expense" />
+
+    <fragment
+        android:id="@+id/editExpenseFragment"
+        android:name="com.mad.expensetracker.ui.expense.EditExpenseFragment"
+        android:label="Edit Expense">
+        <argument android:name="expenseId" app:argType="string" />
+        <action
+            android:id="@+id/action_edit_to_list"
+            app:destination="@id/expenseListFragment"
+            app:popUpTo="@id/expenseListFragment"
+            app:popUpToInclusive="false" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.mad.expensetracker.ui.settings.SettingsFragment"
+        android:label="Settings" />
+
+</navigation>

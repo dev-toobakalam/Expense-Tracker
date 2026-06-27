@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/dashboardFragment" android:title="Dashboard" android:icon="@drawable/ic_dashboard" />
+    <item android:id="@+id/expenseListFragment" android:title="Expenses" android:icon="@drawable/ic_list" />
+    <item android:id="@+id/addExpenseFragment" android:title="Add" android:icon="@drawable/ic_add" />
+    <item android:id="@+id/settingsFragment" android:title="Settings" android:icon="@drawable/ic_settings" />
+</menu>

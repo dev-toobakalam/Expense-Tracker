@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dark Theme Backgrounds -->
+    <color name="background">#0A0E1A</color>
+    <color name="surface">#141824</color>
+    <color name="surface_muted">#1E2335</color>
+
+    <!-- Primary = Neon Green, Accent = Electric Blue -->
+    <color name="primary">#00D09C</color>
+    <color name="primary_dark">#00B888</color>
+    <color name="accent">#4F8CFF</color>
+    <color name="accent_dark">#3A70D6</color>
+
+    <!-- Text Colors -->
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#8A8FA9</color>
+    <color name="text_on_dark">#FFFFFF</color>
+    <color name="text_on_dark_muted">#7A8FA9</color>
+
+    <!-- Status & Dividers -->
+    <color name="divider">#2A3040</color>
+    <color name="error">#FF5A5A</color>
+    <color name="success">#00D09C</color>
+
+    <!-- Category Colors (Bright for Dark BG) -->
+    <color name="cat_food">#FF7B4A</color>
+    <color name="cat_transport">#4FC3F7</color>
+    <color name="cat_shopping">#CE93D8</color>
+    <color name="cat_bills">#FFD54F</color>
+    <color name="cat_entertainment">#4DD0E1</color>
+    <color name="cat_other">#78909C</color>
+
+    <!-- Base -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+</resources>

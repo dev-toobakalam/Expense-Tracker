@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Expense Tracker</string>
+    <string name="login_title">Welcome back</string>
+    <string name="login_subtitle">Log in to keep tracking your spending</string>
+    <string name="signup_title">Create your account</string>
+    <string name="signup_subtitle">Start tracking your expenses in minutes</string>
+    <string name="email_hint">Email address</string>
+    <string name="password_hint">Password</string>
+    <string name="login_button">Log In</string>
+    <string name="signup_button">Create Account</string>
+    <string name="no_account_text">Don\'t have an account? Sign up</string>
+    <string name="have_account_text">Already have an account? Log in</string>
+    <string name="error_email_invalid">Enter a valid email address</string>
+    <string name="error_password_short">Password must be at least 6 characters</string>
+    <string name="error_amount_invalid">Enter an amount greater than 0</string>
+    <string name="dashboard_title">Total spent this month</string>
+    <string name="add_expense_title">Add Expense</string>
+    <string name="edit_expense_title">Edit Expense</string>
+    <string name="expenses_title">Expenses</string>
+    <string name="settings_title">Settings</string>
+    <string name="change_password">Change Password</string>
+    <string name="logout">Log Out</string>
+    <string name="forgot_password">Forgot password?</string>
+
+    <string-array name="categories">
+        <item>Food</item>
+        <item>Transport</item>
+        <item>Shopping</item>
+        <item>Bills</item>
+        <item>Entertainment</item>
+        <item>Other</item>
+    </string-array>
+</resources>
