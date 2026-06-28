@@ -19,7 +19,7 @@ A native Android app for tracking daily expenses by category, built with Firebas
 ## Tech Stack
 
 | Layer | Choice |
-|---|---|
+|-------|--------|
 | Platform | Android (native, Java) |
 | Authentication | Firebase Authentication (email/password) |
 | Database | Cloud Firestore |
@@ -41,58 +41,62 @@ A native Android app for tracking daily expenses by category, built with Firebas
 2. In the [Firebase Console](https://console.firebase.google.com), create a project (or use an existing one).
 3. Add an Android app to the Firebase project using package name `com.mad.expensetracker`.
 4. Download the generated `google-services.json` and place it in the app module directory:
-app/google-services.json
 
-text
+```
+app/google-services.json
+```
+
 5. In Firebase Console, enable:
-- **Authentication → Sign-in method → Email/Password**
-- **Firestore Database** (start in production or test mode as preferred)
+   - **Authentication → Sign-in method → Email/Password**
+   - **Firestore Database** (start in production or test mode as preferred)
+
 6. Open the project in Android Studio and let Gradle sync.
 7. Build and run on a device or emulator (**Build → Make Project**, then **Run**).
 
 ---
 
 ## Project Structure
-app/src/main/java/com/mad/expensetracker/
-├── ExpenseApp.java # Application class, initializes Firebase
-├── data/
-│ ├── model/Expense.java # Expense data model
-│ └── repository/
-│ ├── AuthRepository.java # Firebase Auth operations
-│ └── ExpenseRepository.java # Firestore CRUD operations
-├── ui/
-│ ├── auth/ # Login, Signup
-│ ├── dashboard/ # Dashboard + chart
-│ ├── expense/ # Add, Edit, List, Adapter
-│ ├── settings/ # Settings screen
-│ └── MainActivity.java # Hosts bottom navigation + nav graph
-└── utils/
-└── Validators.java # Shared input validation & formatting
 
-text
+```
+app/src/main/java/com/mad/expensetracker/
+├── ExpenseApp.java               # Application class, initializes Firebase
+├── data/
+│   ├── model/Expense.java        # Expense data model
+│   └── repository/
+│       ├── AuthRepository.java       # Firebase Auth operations
+│       └── ExpenseRepository.java    # Firestore CRUD operations
+├── ui/
+│   ├── auth/                     # Login, Signup
+│   ├── dashboard/                # Dashboard + chart
+│   ├── expense/                  # Add, Edit, List, Adapter
+│   ├── settings/                 # Settings screen
+│   └── MainActivity.java         # Hosts bottom navigation + nav graph
+└── utils/
+    └── Validators.java           # Shared input validation & formatting
+```
 
 ---
 
 ## Screenshots
 
-| Screen | Preview |
+| | |
 |---|---|
-| Sign Up | ![Sign Up](./Screenshots/signup.png) |
-| Login | ![Login](./Screenshots/login.png) |
-| Dashboard | ![Dashboard](./Screenshots/dashboard.png) |
-| Add Expense | ![Add Expense](./Screenshots/addexpense.png) |
-| Edit Expense | ![Edit Expense](./Screenshots/editexpense.png) |
-| Expense List | ![Expense List](./Screenshots/expenselist.png) |
-| Settings | ![Settings](./Screenshots/settings.png) |
+| **Sign Up** | **Login** |
+| ![Sign Up](./Screenshots/signup.png) | ![Login](./Screenshots/login.png) |
+| **Dashboard** | **Add Expense** |
+| ![Dashboard](./Screenshots/dashboard.png) | ![Add Expense](./Screenshots/addexpense.png) |
+| **Edit Expense** | **Expense List** |
+| ![Edit Expense](./Screenshots/editexpense.png) | ![Expense List](./Screenshots/expenselist.png) |
+| **Settings** | |
+| ![Settings](./Screenshots/settings.png) | |
 
 ---
 
 ## APK Download
 
-[Download APK](./ExpenseTracker.apk)
+[![Download APK](https://img.shields.io/badge/Download-APK-orange?style=for-the-badge&logo=android)](https://github.com/dev-toobakalam/Expense-Tracker/raw/main/Expense-Tracker.apk)
 
-##Direct Download
-[Download APK](https://github.com/dev-toobakalam/Expense-Tracker/raw/main/Expense-Tracker.apk)
+**Direct Link:** [Expense-Tracker.apk](https://github.com/dev-toobakalam/Expense-Tracker/raw/main/Expense-Tracker.apk)
 
 ---
 
