@@ -29,7 +29,7 @@ A personal expense tracker app for Android.
 
 ## APK Download
 
-[Download APK](https://github.com/dev-toobakalam/ExpenseTracker/blob/main/Expense-Tracker.apk?raw=true)
+[Download APK](https://github.com/dev-toobakalam/Expense-Tracker/blob/main/Expense-Tracker.apk)
 ---
 
 ## Setup Instructions
