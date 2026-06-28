@@ -98,6 +98,7 @@ app/src/main/java/com/mad/expensetracker/
 
 **Direct Link:** [Expense-Tracker.apk](https://github.com/dev-toobakalam/Expense-Tracker/raw/main/Expense-Tracker.apk)
 
+> Since this APK isn't distributed through the Play Store, your phone will ask for permission to "install from unknown sources" the first time — this is a normal one-time prompt for any app installed outside the Play Store.
 ---
 
 ## Assumptions & Notes
